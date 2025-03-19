@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# CRM Web App
+
+A web-based Customer Relationship Management (CRM) application built with Next.js, TypeScript, Redux, and Material-UI.
+
+## Project Structure
+
+- `/src/components/`: Reusable UI components (e.g., `PersonCard`, `NavBar`).
+- `/src/hooks/`: Custom React hooks (e.g., `useFetchPeople`).
+- `/src/pages/`: Next.js pages for routing (e.g., `index.tsx`, `people/index.tsx`).
+- `/src/services/`: API or data fetching logic (e.g., `api.ts`).
+- `/src/store/`: Redux state management (e.g., `peopleSlice.ts`).
+- `/src/types/`: TypeScript type definitions (e.g., `types.ts`).
+
+## Getting Started
+
+1. Install dependencies: `npm install`
+2. Run the development server: `npm run dev`
+3. Open `http://localhost:3000` in your browser.
